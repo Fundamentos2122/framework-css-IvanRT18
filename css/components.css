@@ -154,6 +154,7 @@
     overflow-y: auto;
     -ms-overflow-style: none;
     scrollbar-width: none;
+    display: none;
 }
 
 .modal::-webkit-scrollbar{
@@ -255,4 +256,8 @@
 
 .show{
     display: block;
+}
+
+.logo{
+    max-width: 4em;
 }
